@@ -76,6 +76,7 @@ axios.get('https://jsonplaceholder.typicode.com/todos/1')
 
 <details><summary>Response</summary>
 <p>
+
 ```json
 Object {
   completed: false,
@@ -84,5 +85,6 @@ Object {
   userId: 1
 }
 ```
+
 </p>
 </details>
