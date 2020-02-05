@@ -10,7 +10,7 @@ I will give examples for the following approaches:
 * [Axios](https://github.com/axios/axios)
 
 
-I will use [JSONPlaceholder](https://jsonplaceholder.typicode.com/) service for requests testing and [CodePen](https://codepen.io/) for code examples
+I will use [JSONPlaceholder](https://jsonplaceholder.typicode.com/) service for requests testing and [CodePen](https://codepen.io/) for code examples (open Console Panel)
 
 ## Table of Contents
 
@@ -73,3 +73,16 @@ axios.get('https://jsonplaceholder.typicode.com/todos/1')
     console.log(response.data);
   });
 ```
+
+<details><summary>Response</summary>
+<p>
+```json
+Object {
+  completed: false,
+  id: 1,
+  title: "delectus aut autem",
+  userId: 1
+}
+```
+</p>
+</details>
